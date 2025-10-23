@@ -20,7 +20,9 @@ Otwórz `minter.py` i zmień w linii 7-9:
 ## Uruchomienie
 
 Pojedyncze:
+
 python minter.py
 
 Ciągłe:
+
 python looper.py
