@@ -8,7 +8,6 @@ git clone https://github.com/pkonieczny007/Koparka-OPXEN.git
 cd Koparka-OPXEN
 pip install -r requirements.txt
 
-text
 
 ## Konfiguracja
 
@@ -20,8 +19,6 @@ Otwórz `minter.py` i zmień w linii 7-9:
 
 Pojedyncze:
 python minter.py
-
-text
 
 Ciągłe:
 python looper.py
