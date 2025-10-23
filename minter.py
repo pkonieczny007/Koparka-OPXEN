@@ -8,8 +8,8 @@ from db import create_table, insert_mint
 
 #"AGENT31"
 RPC_URL = "https://mainnet.optimism.io"
-PRIVATE_KEY = "0x6554e33c2a71c429eaa...a2176d68"
-FROM_ADDRESS = Web3.to_checksum_address("0xCa466850b9cE18b38ed620bc6755325f215e659e")
+PRIVATE_KEY = "0x6554e33c2a71c429eaa...a2176d68"   #<--------TUTAJ WPISZ SWÓJ PRIVATE_KEY
+FROM_ADDRESS = Web3.to_checksum_address("0xCa466850b9cE18b38ed620bc6755325f215e659e")  #<------TUTAJ WPISZ SWÓJ ADRES PORTFELA
 CHAIN_ID = 10
 DEFAULT_MAX_FEE_GWEI = 0.000001 #0.000005 to jest ok 0.000001 super
 DEFAULT_MAX_PRIO_GWEI = 0.000001 #0.000005 to jest ok 0.000001 super
